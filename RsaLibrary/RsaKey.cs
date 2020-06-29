@@ -18,22 +18,22 @@ namespace RsaLibrary
         }
         private void CreatePublicKey()
         {
-            int resto;
+            int mcd;
             Random random = new Random();
             do
             {
                 E = random.Next(2, phi - 1);
-                resto = CalcoloMCD(phi, E);
-            } while (resto != 1);
+                mcd = FindMCD(phi, E);
+            } while (mcd != 1);
         }
-        private int CalcoloMCD(int a, int b)
+        private int FindMCD(int a, int b)
         {
-            int resto = 0;
+            int r = 0;
             while (b != 0)
             {
-                resto = a % b;
+                r = a % b;
                 a = b;
-                b = resto;
+                b = r;
             }
             return a;
         }
@@ -44,7 +44,7 @@ namespace RsaLibrary
             {
                 k += 1;
                 D = (k * phi + 1) / E;
-            } while ((D * E) != k * phi + 1);
+            } while ((D * E) != k * phi + 1 /*|| D==E*/);
         }
     }
 }

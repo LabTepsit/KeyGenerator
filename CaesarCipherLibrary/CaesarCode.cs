@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace CaesarCipherLibrary
+﻿namespace CaesarCipherLibrary
 {
     public class CaesarCode:CaesarBase
     {
@@ -12,6 +8,5 @@ namespace CaesarCipherLibrary
             Key = key;
             CipherText = DoWork(message);         
         }
-
     }
 }

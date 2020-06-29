@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RsaLibrary", "RsaLibrary\Rs
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CesarCodeApp", "CesarCodeApp\CesarCodeApp.csproj", "{0C2F9F2D-63F3-4F25-A2C1-883444BCDEFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaesarCipherLibrary", "CaesarCipherLibrary\CaesarCipherLibrary.csproj", "{7DB98863-FEE3-42CC-8CD3-80F27D13FE7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CaesarCipherLibrary", "CaesarCipherLibrary\CaesarCipherLibrary.csproj", "{7DB98863-FEE3-42CC-8CD3-80F27D13FE7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgoritmoEuclide", "AlgoritmoEuclide\AlgoritmoEuclide.csproj", "{FFB088AF-0D4D-4D23-AB56-9F653416849B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{7DB98863-FEE3-42CC-8CD3-80F27D13FE7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DB98863-FEE3-42CC-8CD3-80F27D13FE7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DB98863-FEE3-42CC-8CD3-80F27D13FE7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFB088AF-0D4D-4D23-AB56-9F653416849B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFB088AF-0D4D-4D23-AB56-9F653416849B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFB088AF-0D4D-4D23-AB56-9F653416849B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFB088AF-0D4D-4D23-AB56-9F653416849B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

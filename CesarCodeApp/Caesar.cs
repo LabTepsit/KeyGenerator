@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace CesarCodeApp
+﻿namespace CesarCodeApp
 {
     public class Caesar
     {
@@ -21,9 +17,13 @@ namespace CesarCodeApp
 			char offset;
 
 			if (char.IsUpper(ch))
-			{ offset = 'A'; }
+			{ 
+				offset = 'A'; 
+			}
 			else
-			{ offset = 'a'; }
+			{ 
+				offset = 'a';
+			}
 
 			return (char)(((ch + Key - offset) % 26) + offset);
 		}

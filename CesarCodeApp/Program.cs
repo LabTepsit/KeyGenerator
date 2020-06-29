@@ -7,7 +7,7 @@ namespace CesarCodeApp
     {
         static void Main(string[] args)
         {
-			Caesar message = new Caesar("zzzzz", 3);
+			Caesar message = new Caesar("NetGeneration", 3);
 			message.Encipher();
 			Console.WriteLine(message.CipherMessage);
 			message.Decipher();
@@ -17,7 +17,7 @@ namespace CesarCodeApp
 			Console.WriteLine(m1.CipherText);
 			CaesarDec p1 = new CaesarDec("Ydoh Ydoh", 3);
 			Console.WriteLine(p1.PlainText);
-		}
-
-	}
+        }      
+    }
 }
+
