@@ -7,7 +7,6 @@ namespace RsaLibrary
         public int E { get; private set; }
         public int D { get; private set; }
         public int N { get; private set; }
-
         private int phi;
         public RsaKey(int p, int q)
         {
